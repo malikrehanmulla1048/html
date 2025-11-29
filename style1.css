@@ -3,7 +3,7 @@
     padding:0;
     color:white;
 div{
-    height:25px;
+    height:50px;
 }
  }
  #navigation{
@@ -18,5 +18,48 @@ div{
     font-size:20px;
  }
  a{
+    text-decoration:none;
     margin-right:200px;
  }
+ #traffic_light{
+    background-color: #0f1111;
+    height:230px;
+    width:90px;
+    margin-top:10px;
+ }
+ #gap{
+    height:20px;
+    width:0px;
+ }
+ #red{
+    text-align: center;
+    background-color:red;
+    height:50px;
+    width:50px;
+    margin:0px 20px 20px 20px;
+    border-radius:50%;
+    border:2px dotted black;
+    /* padding:5px; */
+
+ }
+#yellow{
+    text-align: center;
+    background-color:yellow;
+    height:50px;
+    width:50px;
+    margin:20px;
+    border-radius:50%;
+    border:2px dotted black;
+    /* padding:5px; */
+    
+ }
+ #green{
+    text-align: center;
+    background-color:green;
+    height:50px;
+    width:50px;
+    margin:20px;  
+    border-radius:50%;
+     border:2px dotted black;
+    /* padding:5px; */
+}

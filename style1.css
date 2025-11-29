@@ -1,12 +1,22 @@
-h1{
-    color:rgb(48, 45, 41);
-    text-align:center;
-    background-color:#ff00ff
+ *{
+    margin:0;
+    padding:0;
+    color:white;
+div{
+    height:25px;
 }
-#h{
-    color:blue;
-    background-image: url("https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/9ef2b10e-bebb-54f5-9c99-bb56ee0e9408/f687982e-616a-5a6a-b301-e8d0f33c56f2.jpg");
-    /* background-repeat: no-repe; */
-    /* background-size: cover; */
-    /* background-attachment: fixed;
-} */}
+ }
+ #navigation{
+    background-color: #0f1111;
+
+ }
+ #search{
+    background-color:#f08804;
+ }
+ #amazon{
+    color:#f08804;
+    font-size:20px;
+ }
+ a{
+    margin-right:200px;
+ }
